@@ -27,20 +27,28 @@ Run the program:
 
 go run blockchain.go
 
-Usage:
-(Screenshot/usage.PNG)
+<h4>Usage</h4>
+<p float="left">
+  <img src="./Screenshot/usage.PNG" width="250"/>
+</p>
 
-Example Transactions : 
+<h4>Example Transactions</h4>
+<p float="left">
+  <img src="./Screenshot/example.PNG" width="250"/>
 
-(Screenshot/example.PNG)
+</p>
 
-Print Blockchain : 
+<h4>Print Blockchain </h4>
+<p float="left">
+  <img src="./Screenshot/Print.PNG" width="250"/>
+</p>
 
-(Screenshot/Print.PNG)
+<h4>Check Wallet Balance </h4>
+<p float="left">
+  <img src="./Screenshot/check-wallet.PNG" width="250"/>
 
-Check Wallet Balance : 
 
-(Screenshot/check-wallet.PNG)
+</p>
 
 Notes
 
