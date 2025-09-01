@@ -28,58 +28,19 @@ Run the program:
 go run blockchain.go
 
 Usage:
-
-1: Add new block with multiple transactions
-2: Print blockchain
-3: Check wallet balance
-4: Exit
-Choose an option: 1
+(Screenshot/usage.PNG)
 
 Example Transactions : 
 
-================ Block 0 ================
-Timestamp: 2025-09-01 15:10:00
-Nonce: 0
-Transactions:
-Hash: a1b2c3d4...
-PrevHash: 
-=========================================
+(Screenshot/example.PNG)
 
-================ Block 1 ================
-Timestamp: 2025-09-01 15:11:05
-Nonce: 4021
-Transactions:
-  Furkan -> Mahmut : 30.00
-  Beyza -> Begüm : 50.00
-Hash: 000f1a2b3c...
-PrevHash: a1b2c3d4...
-=========================================
 Print Blockchain : 
 
-================ Block 0 ================
-Timestamp: 2025-09-01 15:10:00
-Nonce: 0
-Transactions:
-Hash: a1b2c3d4...
-PrevHash: 
-=========================================
-
-================ Block 1 ================
-Timestamp: 2025-09-01 15:11:05
-Nonce: 4021
-Transactions:
-  Furkan -> Mahmut : 30.00
-  Beyza -> Begüm : 50.00
-Hash: 000f1a2b3c...
-PrevHash: a1b2c3d4...
-=========================================
+(Screenshot/Print.PNG)
 
 Check Wallet Balance : 
 
-Furkan balance: 70.00
-Mahmut balance: 130.00
-Beyza balance: 50.00
-Begüm balance: 150.00
+(Screenshot/check-wallet.PNG)
 
 Notes
 
