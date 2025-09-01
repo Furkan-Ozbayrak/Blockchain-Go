@@ -89,3 +89,98 @@ Proof-of-Work difficulty is set to 3 by default.
 
 Educational project for blockchain learning and demonstration.
 
+🇹🇷 Türkçe Versiyon
+Açıklama
+
+Bu, Go dili ile yazılmış basit bir etkileşimli blockchain projesidir.
+Birden fazla işlem, cüzdan yönetimi, proof-of-work mining ve dinamik cüzdan oluşturmayı destekler.
+Giriş seviyesindeki kullanıcılar için blockchain mantığını öğrenmeye yönelik tasarlanmıştır.
+
+Özellikler
+
+Çoklu cüzdanlar (varsayılan: Furkan, Begüm, Mahmut, Beyza)
+
+Yeni kullanıcılar için dinamik cüzdan oluşturma
+
+Her blokta birden fazla işlem
+
+Proof-of-Work mining
+
+Blockchain doğrulama
+
+Cüzdan bakiyesini kontrol etme
+
+Etkileşimli komut satırı arayüzü (CLI)
+
+Kurulum
+
+Go
+ yüklü olduğundan emin olun (1.20+ önerilir)
+
+Repoyu klonlayın:
+
+git clone <repo-link>
+cd <repo-folder>
+
+
+Programı çalıştırın:
+
+go run blockchain.go
+
+Kullanım
+1: Birden fazla işlem içeren yeni blok ekle
+2: Blockchain'i yazdır
+3: Cüzdan bakiyesini kontrol et
+4: Çıkış
+Seçiminiz: 1
+
+
+Örnek İşlemler
+
+Gönderen: Furkan
+Alıcı: Mahmut
+Miktar: 30
+
+Gönderen: Beyza
+Alıcı: Begüm
+Miktar: 50
+
+Gönderen: done
+Blok mine edildi ve blockchain'e eklendi!
+
+
+Blockchain’i Yazdır
+
+================ Block 0 ================
+Zaman Damgası: 2025-09-01 15:10:00
+Nonce: 0
+İşlemler:
+Hash: a1b2c3d4...
+PrevHash: 
+=========================================
+
+================ Block 1 ================
+Zaman Damgası: 2025-09-01 15:11:05
+Nonce: 4021
+İşlemler:
+  Furkan -> Mahmut : 30.00
+  Beyza -> Begüm : 50.00
+Hash: 000f1a2b3c...
+PrevHash: a1b2c3d4...
+=========================================
+
+
+Cüzdan Bakiyesini Kontrol Et
+
+Furkan bakiye: 70.00
+Mahmut bakiye: 130.00
+Beyza bakiye: 50.00
+Begüm bakiye: 150.00
+
+Notlar
+
+Yalnızca kayıtlı veya dinamik olarak oluşturulan cüzdanlar para gönderebilir.
+
+Proof-of-Work zorluğu varsayılan olarak 3’tür.
+
+Blockchain öğrenimi ve demo amaçlı eğitim projesidir.
