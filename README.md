@@ -52,7 +52,7 @@ go run blockchain.go
 
 </p>
 
-Notes
+**Notes** :
 
 Only registered or dynamically created wallets can send funds.
 
@@ -125,7 +125,7 @@ cd Blockchain-Go
 </p>
 
 
-Notlar
+**Notes** :
 
 Yalnızca kayıtlı veya dinamik olarak oluşturulan cüzdanlar para gönderebilir.
 
