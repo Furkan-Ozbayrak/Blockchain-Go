@@ -88,63 +88,39 @@ Go
 
 Repoyu klonlayın:
 
-git clone <repo-link>
-cd <repo-folder>
+  git clone <(https://github.com/Furkan-Ozbayrak)>
+   cd <(https://github.com/Furkan-Ozbayrak/Blockchain-Go)>
+
 
 
 Programı çalıştırın:
 
 go run blockchain.go
 
-Kullanım
-1: Birden fazla işlem içeren yeni blok ekle
-2: Blockchain'i yazdır
-3: Cüzdan bakiyesini kontrol et
-4: Çıkış
-Seçiminiz: 1
+
+<h4>Usage</h4>
+<p float="left">
+  <img src="./Screenshot/usage.PNG" width="250"/>
+</p>
+
+<h4>Example Transactions</h4>
+<p float="left">
+  <img src="./Screenshot/example.PNG" width="250"/>
+
+</p>
+
+<h4>Print Blockchain </h4>
+<p float="left">
+  <img src="./Screenshot/Print.PNG" width="250"/>
+</p>
+
+<h4>Check Wallet Balance </h4>
+<p float="left">
+  <img src="./Screenshot/check-wallet.PNG" width="250"/>
 
 
-Örnek İşlemler
+</p>
 
-Gönderen: Furkan
-Alıcı: Mahmut
-Miktar: 30
-
-Gönderen: Beyza
-Alıcı: Begüm
-Miktar: 50
-
-Gönderen: done
-Blok mine edildi ve blockchain'e eklendi!
-
-
-Blockchain’i Yazdır
-
-================ Block 0 ================
-Zaman Damgası: 2025-09-01 15:10:00
-Nonce: 0
-İşlemler:
-Hash: a1b2c3d4...
-PrevHash: 
-=========================================
-
-================ Block 1 ================
-Zaman Damgası: 2025-09-01 15:11:05
-Nonce: 4021
-İşlemler:
-  Furkan -> Mahmut : 30.00
-  Beyza -> Begüm : 50.00
-Hash: 000f1a2b3c...
-PrevHash: a1b2c3d4...
-=========================================
-
-
-Cüzdan Bakiyesini Kontrol Et
-
-Furkan bakiye: 70.00
-Mahmut bakiye: 130.00
-Beyza bakiye: 50.00
-Begüm bakiye: 150.00
 
 Notlar
 
