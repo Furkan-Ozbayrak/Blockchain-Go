@@ -20,8 +20,10 @@ Designed for beginner-level blockchain demonstration and learning purposes.
 1. Make sure you have [Go](https://golang.org/dl/) installed (version 1.20+ recommended)  
 2. Clone the repository:  
    ```bash
-   git clone <(https://github.com/Furkan-Ozbayrak)>
-   cd <(https://github.com/Furkan-Ozbayrak/Blockchain-Go)>
+git clone https://github.com/Furkan-Ozbayrak/Blockchain-Go.git
+cd Blockchain-Go
+
+
 
 Run the program:
 
@@ -88,33 +90,34 @@ Go
 
 Repoyu klonlayın:
 
-  git clone <(https://github.com/Furkan-Ozbayrak)>
-   cd <(https://github.com/Furkan-Ozbayrak/Blockchain-Go)>
+ git clone https://github.com/Furkan-Ozbayrak/Blockchain-Go.git
+cd Blockchain-Go
+
+
 
 
 
 Programı çalıştırın:
 
-go run blockchain.go
+cd Blockchain-Go
 
-
-<h4>Usage</h4>
+<h4>Kullanım</h4>
 <p float="left">
   <img src="./Screenshot/usage.PNG" width="250"/>
 </p>
 
-<h4>Example Transactions</h4>
+<h4>Örnek İşlemler</h4>
 <p float="left">
   <img src="./Screenshot/example.PNG" width="250"/>
 
 </p>
 
-<h4>Print Blockchain </h4>
+<h4>Blockchain’i Yazdırma </h4>
 <p float="left">
   <img src="./Screenshot/Print.PNG" width="250"/>
 </p>
 
-<h4>Check Wallet Balance </h4>
+<h4>Cüzdan Bakiyesini Kontrol Etme </h4>
 <p float="left">
   <img src="./Screenshot/check-wallet.PNG" width="250"/>
 
